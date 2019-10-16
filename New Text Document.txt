@@ -1,0 +1,9 @@
+        // Valery
+        g.setColor(Color.orange);
+        g.fillRect(90, Beginlijn - Valery, 30, Valery);
+        // Jeroen
+        g.setColor(Color.red);
+        g.drawRect(150, Beginlijn - Hans, 30, Hans);
+        // Hans
+        g.setColor(Color.yellow);
+        g.fillRect(210, Beginlijn - Jeroen, 30, Jeroen);
