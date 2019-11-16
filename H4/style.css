@@ -1,0 +1,21 @@
+#content-columns {
+    padding-left: 640px;
+    padding-right: 640px;
+}
+
+#content-columns div#primary {
+    float: left;
+    width: 640px;
+    margin-left: -640px;
+}
+
+#content-columns div#secondary {
+    float: left;
+    width: 320px;
+}
+
+#content-columns div#tertiary {
+    float: right;
+    width: 320px;
+    margin-right: -320px;
+}
