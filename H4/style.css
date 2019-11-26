@@ -1,21 +1,49 @@
-#content-columns {
-    padding-left: 640px;
-    padding-right: 640px;
+nav{
+    background-color:black;
+
 }
 
-#content-columns div#primary {
+nav a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 5px;
+    border-right: 2px solid white;
+}
+
+body{
+    font-family:"Arial" , "sans-serif";
+}
+
+div.wrapper{
+    width:960px;
+    margin: auto;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    width: 49%;
+
+}
+
+td{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+td.groen{
+    background-color: lightgreen;
+}
+
+td.blauw{
+    background-color: lightblue;
+}
+
+artikel{
     float: left;
-    width: 640px;
-    margin-left: -640px;
-}
-
-#content-columns div#secondary {
-    float: left;
-    width: 320px;
-}
-
-#content-columns div#tertiary {
-    float: right;
-    width: 320px;
-    margin-right: -320px;
+    width: 49%;
+    margin-right: 2%;
+    margin-top: 30px;
 }
